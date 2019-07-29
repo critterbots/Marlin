@@ -278,4 +278,6 @@
 #define MSG_FILAMENT_CHANGE_HEATING_1       _UxGT("Calentando boquilla")
 #define MSG_FILAMENT_CHANGE_HEATING_2       _UxGT("Espere por favor")
 
+#define MSG_VELOCITY                        _UxGT("Velocidad")
+
 #endif // LANGUAGE_ES_H

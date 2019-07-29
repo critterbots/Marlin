@@ -138,7 +138,7 @@
 
 // Show Temperature ADC value
 // Enable for M105 to include ADC values read from temperature sensors.
-//#define SHOW_TEMP_ADC_VALUES
+#define SHOW_TEMP_ADC_VALUES
 
 /**
  * High Temperature Thermistor Support
@@ -464,6 +464,10 @@
 
 // Microstep setting (Only functional when stepper driver microstep pins are connected to MCU.
 #define MICROSTEP_MODES { 16, 16, 16, 16, 16 } // [1,2,4,8,16]
+//#define MICROSTEP_MODES { 8, 8, 8, 8, 8 } // [1,2,4,8,16]
+//#define MICROSTEP_MODES { 4, 4, 4, 4, 4 } // [1,2,4,8,16]
+//#define MICROSTEP_MODES { 2, 2, 2, 2, 2 } // [1,2,4,8,16]
+//#define MICROSTEP_MODES { 1, 1, 1, 1, 1 } // [1,2,4,8,16]
 
 /**
  *  @section  stepper motor current
@@ -1430,7 +1434,7 @@
 /**
  * M43 - display pin status, watch pins for changes, watch endstops & toggle LED, Z servo probe test, toggle pins
  */
-//#define PINS_DEBUGGING
+#define PINS_DEBUGGING
 
 /**
  * Auto-report temperatures with M155 S<seconds>

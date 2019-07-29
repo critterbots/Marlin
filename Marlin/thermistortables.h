@@ -131,6 +131,9 @@
 #if ANY_THERMISTOR_IS(999) // User-defined table 2
   #include "thermistortable_999.h"
 #endif
+#if ANY_THERMISTOR_IS(2000) // User-defined 100k NTC B 3950
+  #include "thermistortable_2000.h"
+#endif
 
 #define _TT_NAME(_N) temptable_ ## _N
 #define TT_NAME(_N) _TT_NAME(_N)
